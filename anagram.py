@@ -30,16 +30,16 @@ def checkAnagram(input1, input2):
       return True
 
 #create function to format result
-def formatAnagram(s1, s2):
+def anagram(s1, s2):
     print("String 1: ", s1)
     print("String 2: ", s2)
     if(checkAnagram(s1, s2)):
-        print("** These are anagrams! :) **")
+        print("these are anagrams")
     else:
-        print("** These are not the anagrams you are looking for. **")
+        print("these are not anagrams")
     print("\n")
 
 #call functions to print in console
-formatAnagram("anagram", "nag a ram")
-formatAnagram("eleven plus two", "twelve plus one")
-formatAnagram("Hello!!", "Goodbye")
+anagram("anagram", "nag a ram")
+anagram("eleven plus two", "twelve plus one")
+anagram("Hello!!", "Goodbye")
